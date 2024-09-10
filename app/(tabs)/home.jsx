@@ -19,11 +19,6 @@ const Home = () => {
     setRefreshing(false);
   };
 
-  // one flatlist
-  // with list header
-  // and horizontal flatlist
-
-  //  we cannot do that with just scrollview as there's both horizontal and vertical scroll (two flat lists, within trending)
 
   return (
     <SafeAreaView className="bg-primary">
@@ -46,9 +41,7 @@ const Home = () => {
                 <Text className="font-pmedium text-sm text-gray-100">
                   Welcome Back
                 </Text>
-                <Text className="text-2xl font-psemibold text-white">
-                  Bcode
-                </Text>
+              
               </View>
 
               <View className="mt-1.5">
